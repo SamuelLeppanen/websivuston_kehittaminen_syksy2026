@@ -1,0 +1,65 @@
+p {
+    color: rgb(0, 162, 255);
+
+    }
+      .content-box p {
+    color: black; 
+    }
+
+    body {
+        background-color: lightgray;
+    }
+
+    h1 {
+    font-size: 2em;
+    }
+
+    .content-box {
+    padding: 20px;
+    margin: 10px;
+    background-color:rgb(255, 123, 0);
+    border: 1px solid black;
+    color: black;
+    }
+
+    table {
+    width: 100%;
+    border-collapse: collapse;    
+    }
+    th, td {    
+    text-align: left;    
+    border: 1px solid black;
+    padding: 8px;
+    }    
+    th {
+    background-color:rgb(38, 255, 0);
+    }
+    form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    }
+    
+    label {
+    font-weight: bold;
+    }
+
+    input {
+    padding: 8px;
+    }    
+   input[type="text"], 
+   input[type="email"] { 
+   border-radius: 4px; 
+   }
+
+   input[type="submit"] {
+    background-color: rgb(0, 3, 20);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+    background-color: rgb(0, 17, 200);
+    }    
