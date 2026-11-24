@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Design</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h1>Samuel Workshop 5 Responsive Design</h1>
+
+
+<div class="responsive-container">
+<div class="column">Kuva syyskuussa</div>
+<div class="column">Pienestä lintutornista</div>
+
+
+</div>
+
+
+<img
+src="GOPR0372.JPG"
+alt="Kuva pienestä lintutornista syyskuussa"
+class="responsive-image">
+
+
+<div class="media-query-box">
+Pienennä selaimen ikkunan kokoa nähdäksesi muutoksen
+</div>
+
+
+<nav class="responsive-nav">
+<button class="menu-toggle" onclick="toggleMenu()">
+    = Valikko
+</button>
+
+<ul class="nav-list" id="navList">
+<li><a href="#">Etusivu</a></li>
+<li><a href="#">Tietoa</a></li>
+<li><a href="#">Yhteystiedot</a></li>
+
+</ul>
+</nav>
+
+<script>
+function toggleMenu() {
+const navList = document.getElementById('navList');
+navList.classList.toggle("active");
+}
+
+
+</script>
+
+
+
+</body>
+</html>
